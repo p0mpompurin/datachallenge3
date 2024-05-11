@@ -39,3 +39,10 @@ class Planeta():
             return float(2*np.pi*np.sqrt((self._a**3)/(g*self._masaplanetaria)))
         else:
             return 0
+        
+    def get_name(self):
+        return self._nombre   
+    def get_star(self):
+        return self._estrella_protegida 
+    def get_a(self):
+        return self._a
