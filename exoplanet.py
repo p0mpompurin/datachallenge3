@@ -54,3 +54,14 @@ class PlanetaExoplanetario(Planeta):
         #Si no, no es similar a Tatooine.
         else:
             return "No es similar a Tatooine, ya que solo cuenta con una estrella"
+        
+    def mass_max(self):
+        """
+        Calcula la masa máxima del planeta exoplanetario.
+
+        Returns:
+            float: La masa máxima del planeta exoplanetario.
+        """
+        #Calculamos la masa máxima del planeta exoplanetario.
+        mass_max = max(self._masaplanetaria)
+        return mass_max    
