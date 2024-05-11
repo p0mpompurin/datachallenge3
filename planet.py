@@ -46,3 +46,5 @@ class Planeta():
         return self._estrella_protegida 
     def get_a(self):
         return self._a
+    def get_w(self):
+        return self._w
