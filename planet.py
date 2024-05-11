@@ -45,6 +45,10 @@ class Planeta():
     def get_star(self):
         return self._estrella_protegida 
     def get_a(self):
+<<<<<<< HEAD
         return self._a
     def get_w(self):
         return self._w
+=======
+        return self._a
+>>>>>>> 7e6b769 (Added functions to planet)
